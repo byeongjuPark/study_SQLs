@@ -2,3 +2,5 @@
 hihi  
 parkparkpark!  
 Hyunttora🤯😉  
+
+짝수 기록  
