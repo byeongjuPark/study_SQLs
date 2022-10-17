@@ -11,3 +11,4 @@
 - [COUNT_BY.HyeonTTora](./hyunttora/w3schools/Employees_Order_totals.sql)
 ### Categoires_Products_total : (❁´◡`❁)
 - [Query_byeongjuPark](./bottlepark/w3schools/Categories_Products_totals.sql)
+- [COUNT2_BY.HyeonTTora](./hyunttora/w3schools/Categories_Products_totals.sql)
