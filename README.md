@@ -1,7 +1,7 @@
 # study_SQLs_
-hihi  
-parkparkpark!  
-Hyunttora🤯😉  
+hihi
+parkparkpark!
+Hyunttora🤯😉
 
-
+짝수 기록
 홀수 기록
