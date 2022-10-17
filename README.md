@@ -6,3 +6,5 @@
 ### where_and_not : AND_NOT 을 이용해 활용 🦥
 - [Query_byeongjuPark](./bottlepark/w3schools/where_and_not.sql)
 - [AND_NOT_BY.HyeonTTora](./hyunttora/w3schools/where_and_not.sql)
+### Employees_Order_totals : COUNT을 활용 🐱‍🐉
+- [Query_byeongjuPark](./bottlepark/w3schools/Employees_Order_totals.sql)
