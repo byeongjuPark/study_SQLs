@@ -1,8 +1,3 @@
 # study_SQLs_
-hihi 
-
-끼워넣기 홀수
-parkparkpark!
-Hyunttora🤯😉
-두번째 끼워넣기 홀수
-짝수 기록
+### where_in_subsquery : 서브쿼리를 IN 이용해 활용
+- [query](./bottlepark/w3schools/where_in_subquery.sql)
