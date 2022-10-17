@@ -9,6 +9,6 @@
 ### Employees_Order_totals : COUNT을 활용 🐱‍🐉
 - [Query_byeongjuPark](./bottlepark/w3schools/Employees_Order_totals.sql)
 - [COUNT_BY.HyeonTTora](./hyunttora/w3schools/Employees_Order_totals.sql)
-### Categoires_Products_total : (❁´◡`❁)
+### Categoires_Products_total : COUNT을 활용2 (❁´◡`❁)
 - [Query_byeongjuPark](./bottlepark/w3schools/Categories_Products_totals.sql)
 - [COUNT2_BY.HyeonTTora](./hyunttora/w3schools/Categories_Products_totals.sql)
