@@ -14,3 +14,4 @@
 - [COUNT2_BY.HyeonTTora](./hyunttora/w3schools/Categories_Products_totals.sql)
 ### CategoryName_Products : 합계와 평균
 - [Query_byeongjuPark](./bottlepark/w3schools/CategoryName_Products.sql)
+- [SUM_AVG_BY.HyeonTTora](./hyunttora/w3schools/CategoryName_Products.sql)
