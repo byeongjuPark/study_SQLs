@@ -12,3 +12,5 @@
 ### Categoires_Products_total : COUNT을 활용2 (❁´◡`❁)
 - [Query_byeongjuPark](./bottlepark/w3schools/Categories_Products_totals.sql)
 - [COUNT2_BY.HyeonTTora](./hyunttora/w3schools/Categories_Products_totals.sql)
+### CategoryName_Products : 합계와 평균
+- [Query_byeongjuPark](./bottlepark/w3schools/CategoryName_Products.sql)
