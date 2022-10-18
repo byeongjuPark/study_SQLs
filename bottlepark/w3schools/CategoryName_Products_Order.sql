@@ -3,7 +3,7 @@
 -- OrderID 내역과 총 갯수는 ?
 
 -- 내역
-SELECT OrderID FROM OrderDetails
+SELECT DISTINCT OrderID FROM OrderDetails
 WHERE ProductID IN(SELECT ProductID 
                     FROM Products
                     WHERE CategoryID 
@@ -16,7 +16,7 @@ WHERE ProductID IN(SELECT ProductID
                     )
 
 -- 총개수
-SELECT COUNT(*) FROM OrderDetails
+SELECT DISTINCT COUNT(*) FROM OrderDetails
 WHERE ProductID IN(SELECT ProductID 
                     FROM Products
                     WHERE CategoryID 
