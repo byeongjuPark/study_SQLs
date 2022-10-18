@@ -20,3 +20,4 @@
 - [Query2_BY.HyeonTTora](./hyunttora/w3schools/CategoryName_Products_Order.sql)
 ### Categories_Products_Count : GROUP BY 활용 o((>ω< ))o
 - [Query_byeongjuPark](./bottlepark/w3schools/Categories_Products_Count.sql)
+- [GROUP_BY.HyeonTTora](./hyunttora/w3schools/Categories_Products_Count.sql)
