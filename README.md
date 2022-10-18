@@ -17,3 +17,4 @@
 - [SUM_AVG_BY.HyeonTTora](./hyunttora/w3schools/CategoryName_Products.sql)
 ### CategoryName_Products_Order : 끔찍한 서브쿼리 🤬
 - [Query_byeongjuPark](./bottlepark/w3schools/CategoryName_Products_Order.sql)
+- [Query2_BY.HyeonTTora](./hyunttora/w3schools/CategoryName_Products_Order.sql)
