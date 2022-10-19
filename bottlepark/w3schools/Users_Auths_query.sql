@@ -37,27 +37,41 @@ ALTER TABLE AUTHS
 -- 권한 입력
 
 INSERT INTO auth_names (AUTH_NAME, UNIQUE_ID)
-VALUES ('GUEST', 'B1'), ('ADMIN', 'B2'), ('MANAGER', 'B3')
+VALUES ('GUEST', 'B1')
+INSERT INTO auth_names (AUTH_NAME, UNIQUE_ID)
+VALUES('ADMIN', 'B2')
+INSERT INTO auth_names (AUTH_NAME, UNIQUE_ID)
+VALUES('MANAGER', 'B3')
 ;
 
 -- 회원 가입(U1 ~ U4) 
 INSERT INTO USERS (UNIQUE_ID, NAME, EAMIL, JOB)
-VALUES ('U1','Paul','paul01@gmail.com','IT Billing'),
-('U2','Teddy', 'texas@imfblog.org','Engineering'),
-('U3','Allen', 'norway@iotm.com','IT Billing'),
-('U4','Paul', 'paul_p@naver.com','Developer')
+VALUES ('U1','Paul','paul01@gmail.com','IT Billing')
+INSERT INTO USERS (UNIQUE_ID, NAME, EAMIL, JOB)
+VALUES('U2','Teddy', 'texas@imfblog.org','Engineering')
+INSERT INTO USERS (UNIQUE_ID, NAME, EAMIL, JOB)
+VALUES('U3','Allen', 'norway@iotm.com','IT Billing')
+INSERT INTO USERS (UNIQUE_ID, NAME, EAMIL, JOB)
+VALUES('U4','Paul', 'paul_p@naver.com','Developer')
 ;
 
 -- 유저 권한 입력
 INSERT INTO AUTHS (UNIQUE_ID_USERS, UNIQUE_ID_AUTH_NAMES)
 VALUES ('U1', 'B1')
-        ('U1', 'B2'),
-        ('U2', 'B1'),
-        ('U2', 'B2'),
-        ('U2', 'B3'),
-        ('U3', 'B1'),
-        ('U4', 'B2'),
-        ('U4', 'B1'),
+INSERT INTO AUTHS (UNIQUE_ID_USERS, UNIQUE_ID_AUTH_NAMES)
+VALUES('U1', 'B2')
+INSERT INTO AUTHS (UNIQUE_ID_USERS, UNIQUE_ID_AUTH_NAMES)
+VALUES('U2', 'B1')
+INSERT INTO AUTHS (UNIQUE_ID_USERS, UNIQUE_ID_AUTH_NAMES)
+VALUES('U2', 'B2')
+INSERT INTO AUTHS (UNIQUE_ID_USERS, UNIQUE_ID_AUTH_NAMES)
+VALUES('U2', 'B3')
+INSERT INTO AUTHS (UNIQUE_ID_USERS, UNIQUE_ID_AUTH_NAMES)
+VALUES('U3', 'B1')
+INSERT INTO AUTHS (UNIQUE_ID_USERS, UNIQUE_ID_AUTH_NAMES)
+VALUES('U4', 'B2')
+INSERT INTO AUTHS (UNIQUE_ID_USERS, UNIQUE_ID_AUTH_NAMES)
+VALUES('U4', 'B1'),
 ;
 
 
