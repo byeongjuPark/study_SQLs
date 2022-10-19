@@ -1,3 +1,4 @@
+-- 접근권한생성
 
 INSERT INTO auth_names (AUTH_NAME, UNIQUE_ID)
 VALUES ('GUEST', 'B1')
@@ -12,9 +13,7 @@ VALUES ('MANAGER', 'B3')
 SELECT *
 FROM auth_names;
 
---
-
-
+-- 유저 가입 
 INSERT INTO users (UNIQUE_ID, NAME, EAMIL, JOB)
 VALUES ('U1','Paul','paul01@gmail.com','IT Billing'),
 ('U2','Teddy', 'texas@imfblog.org','Engineering'),
@@ -22,7 +21,7 @@ VALUES ('U1','Paul','paul01@gmail.com','IT Billing'),
 ('U4','Paul', 'paul_p@naver.com','Developer')
 ;
 
---
+-- 유저 권한 부여
 INSERT INTO auths (UNIQUE_ID_USERS, UNIQUE_ID_AUTH_NAMES)
 VALUES ('U1', 'B1')
 ;
@@ -52,7 +51,7 @@ SELECT *
 FROM auths;
 
 
---
+--유저 탈퇴 
  DELETE FROM auths 
  WHERE UNIQUE_ID_USERS IN ('U2','U4');
  
