@@ -26,3 +26,4 @@
 - [Having_BY.HyeonTTora](./hyunttora/w3schools/Products_HAVING.sql)
 ### Users_Auths_query : MySQL로 DB,Tables생성 후 회원 가입,탈퇴🤖
 - [Users_Auths.HyeonTTora](./hyunttora/w3schools/Users_Auths_query.sql) 
+- [Query_byeongjuPark](./bottlepark/w3schools/Users_Auths_query.sql)
