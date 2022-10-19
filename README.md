@@ -21,3 +21,5 @@
 ### Categories_Products_Count : GROUP BY 활용 o((>ω< ))o
 - [Query_byeongjuPark](./bottlepark/w3schools/Categories_Products_Count.sql)
 - [GROUP_BY.HyeonTTora](./hyunttora/w3schools/Categories_Products_Count.sql)
+### Produts_HAVING : HAVING 활용 
+- [Query_byeongjuPark](./bottlepark/w3schools/Products_HAVING.sql)
