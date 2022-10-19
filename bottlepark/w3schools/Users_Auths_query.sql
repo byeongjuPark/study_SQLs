@@ -36,7 +36,7 @@ ALTER TABLE AUTHS
 -- 공유한 엑셀 값들 데이터로 입력
 -- 권한 입력
 
-INSERT INTO auth_names (AUTH_NAME, UNIQUE_ID)
+INSERT INTO AUTH_NAME (AUTH_NAME, UNIQUE_ID)
 VALUES ('GUEST', 'B1'), ('ADMIN', 'B2'), ('MANAGER', 'B3')
 ;
 
@@ -67,8 +67,3 @@ VALUES ('U1', 'B1')
  
  DELETE FROM USERS
  WHERE UNIQUE_ID IN ('U2','U4');
-
-SELECT *
-FROM users;
-
-
