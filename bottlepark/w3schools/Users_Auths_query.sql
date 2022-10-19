@@ -81,8 +81,3 @@ VALUES('U4', 'B1'),
  
  DELETE FROM USERS
  WHERE UNIQUE_ID IN ('U2','U4');
-
-SELECT *
-FROM users;
-
-
