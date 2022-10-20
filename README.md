@@ -27,5 +27,6 @@
 ### Users_Auths_query : MySQL로 DB,Tables생성 후 회원 가입,탈퇴🤖
 - [Users_Auths.HyeonTTora](./hyunttora/w3schools/Users_Auths_query.sql) 
 - [Query_byeongjuPark](./bottlepark/w3schools/Users_Auths_query.sql)
-### UProducts_CategoryID : JOIN 활용
+### UProducts_CategoryID : JOIN 활용🪄
 - [Query_byeongjuPark](./bottlepark/w3schools/Products_CategoryID.sql)
+- [JOIN_BY.HyeonTTora](./hyunttora/w3schools/Products_CategoryID.sql)
