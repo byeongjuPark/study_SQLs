@@ -3,12 +3,20 @@
 -- 정답 : 13개 
 
 
-
+--IN을 사용해서 
 SELECT Products.ProductName,Suppliers.SupplierName
 FROM Products
 INNER JOIN Suppliers
 ON Products.SupplierID  = Suppliers.SupplierID  
 AND Products.CategoryID IN(5,6);
+
+
+--OR을 사용해서
+SELECT Products.ProductName,Suppliers.SupplierName
+FROM Products
+INNER JOIN Suppliers
+ON Products.SupplierID  = Suppliers.SupplierID  
+AND (Products.CategoryID = 5 OR Products.CategoryID= 6);
 
 
 -- 답
