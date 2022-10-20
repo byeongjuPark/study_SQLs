@@ -1,0 +1,90 @@
+-- 제품명 / 가격 / 주문 갯수 표시
+
+-- 답 77 
+SELECT Products.ProductName,Products.Price,SUM(OrderDetails.Quantity)
+FROM Products
+INNER JOIN OrderDetails
+ON Products.ProductID  = OrderDetails.ProductID
+GROUP BY Products.ProductName
+
+
+--답
+-- Number of Records: 77
+-- ProductName	Price	SUM(OrderDetails.Quantity)
+-- Alice Mutton	39.00	978
+-- Aniseed Syrup	10.00	328
+-- Boston Crab Meat	18.40	1103
+-- Camembert Pierrot	34.00	1577
+-- Carnarvon Tigers	62.50	539
+-- Chais	18.00	828
+-- Chang	19.00	1057
+-- Chartreuse verte	18.00	793
+-- Chef Anton's Cajun Seasoning	22.00	453
+-- Chef Anton's Gumbo Mix	21.35	298
+-- Chocolade	12.75	138
+-- Côte de Blaye	263.50	623
+-- Escargots de Bourgogne	13.25	534
+-- Filo Mix	7.00	500
+-- Fløtemysost	21.50	1057
+-- Geitost	2.50	755
+-- Genen Shouyu	15.50	122
+-- Gnocchi di nonna Alice	38.00	1263
+-- Gorgonzola Telino	12.50	1397
+-- Grandma's Boysenberry Spread	25.00	301
+-- Gravad lax	26.00	125
+-- Guaraná Fantástica	4.50	1125
+-- Gudbrandsdalsost	36.00	714
+-- Gula Malacca	19.45	601
+-- Gumbär Gummibärchen	31.23	753
+-- Gustaf's Knäckebröd	21.00	348
+-- Ikura	31.00	742
+-- Inlagd Sill	19.00	805
+-- Ipoh Coffee	46.00	580
+-- Jack's New England Clam Chowder	9.65	981
+-- Konbu	6.00	891
+-- Lakkalikööri	18.00	981
+-- Laughing Lumberjack Lager	14.00	184
+-- Longlife Tofu	10.00	297
+-- Louisiana Fiery Hot Pepper Sauce	21.05	745
+-- Louisiana Hot Spiced Okra	17.00	239
+-- Manjimup Dried Apples	53.00	886
+-- Mascarpone Fabioli	32.00	297
+-- Maxilaku	20.00	520
+-- Mishi Kobe Niku	97.00	95
+-- Mozzarella di Giovanni	34.80	806
+-- Nord-Ost Matjeshering	25.89	612
+-- Northwoods Cranberry Sauce	40.00	372
+-- NuNuCa Nuß-Nougat-Creme	14.00	318
+-- Original Frankfurter grüne Soße	13.00	791
+-- Outback Lager	15.00	817
+-- Pâté chinois	24.00	903
+-- Pavlova	17.45	1158
+-- Perth Pasties	32.80	722
+-- Queso Cabrales	21.00	706
+-- Queso Manchego La Pastora	38.00	344
+-- Raclette Courdavault	55.00	1496
+-- Ravioli Angelo	19.50	434
+-- Rhönbräu Klosterbier	7.75	1155
+-- Röd Kaviar	15.00	293
+-- Rössle Sauerkraut	45.60	640
+-- Røgede sild	9.50	508
+-- Sasquatch Ale	14.00	506
+-- Schoggi Schokolade	43.90	365
+-- Scottish Longbreads	12.50	799
+-- Singaporean Hokkien Fried Mee	14.00	697
+-- Sir Rodney's Marmalade	81.00	313
+-- Sir Rodney's Scones	10.00	1016
+-- Sirop d'érable	28.50	603
+-- Spegesild	12.00	548
+-- Steeleye Stout	18.00	883
+-- Tarte au sucre	49.30	1083
+-- Teatime Chocolate Biscuits	9.20	723
+-- Thüringer Rostbratwurst	123.79	746
+-- Tofu	23.25	404
+-- Tourtière	7.45	755
+-- Tunnbröd	9.00	580
+-- Uncle Bob's Organic Dried Pears	30.00	763
+-- Valkoinen suklaa	16.25	235
+-- Vegie-spread	43.90	445
+-- Wimmers gute Semmelknödel	33.25	740
+-- Zaanse koeken	9.50	485

@@ -30,5 +30,6 @@
 ### Products_CategoryID : JOIN 활용🪄
 - [Query_byeongjuPark](./bottlepark/w3schools/Products_CategoryID.sql)
 - [JOIN_BY.HyeonTTora](./hyunttora/w3schools/Products_CategoryID.sql)
-### Products_Quantity : Join 활용2
+### Products_Quantity : Join 활용2🪄
 - [Query_byeongjuPark](./bottlepark/w3schools/Products_Quantity.sql)
+- [JOIN2_BY.HyeonTTora](./hyunttora/w3schools/Products_Quantity.sql)
