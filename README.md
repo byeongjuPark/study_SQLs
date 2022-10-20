@@ -33,5 +33,6 @@
 ### Products_Quantity : Join 활용2🪄
 - [Query_byeongjuPark](./bottlepark/w3schools/Products_Quantity.sql)
 - [JOIN2_BY.HyeonTTora](./hyunttora/w3schools/Products_Quantity.sql)
-### Users_Auth_names : Join 의 Join
+### Users_Auth_names : Join 의 Join🤯
 - [Query_byeongjuPark](./bottlepark/w3schools/Users_Auth_names.sql)
+- [JOIN3_BY.HyeonTTora](./hyunttora/w3schools/User_Auth_names.sql)
