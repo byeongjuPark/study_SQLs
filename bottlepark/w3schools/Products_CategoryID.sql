@@ -3,6 +3,6 @@ SELECT Products.ProductName, Suppliers.SupplierName
 FROM Products
 INNER JOIN Suppliers
 ON Products.SupplierID = Suppliers.SupplierID
-WHERE Products.CategoryID = 5 OR Products.CategoryID = 6;
+WHERE Products.CategoryID IN(5,6);
 
         
