@@ -1,5 +1,5 @@
 -- 이름, 이메일, 권한이름 표시, 이름이 Teddy, Allen 만 출력 ?
--- 개판남
+-- 개판남 다시
 
 SELECT DISTINCT UA.name, UA.EMAIL, auth_names.AUTH_NAME
 FROM auth_names
